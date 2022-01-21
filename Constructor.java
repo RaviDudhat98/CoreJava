@@ -8,10 +8,6 @@ package basicjava;
 
 public class Constructor {
 
-	/**
-	 * @param args
-	 */
-	
 	int a; 
 	int n1; 
 	int n2; 

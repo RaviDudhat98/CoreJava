@@ -7,17 +7,13 @@ package basicjava;
  */
 public class BreakContinue {
 
-	/**
-	 * @param args
-	 */
-	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub		
 		System.out.println("Using break....");
 		
-		for (int i = 51; i <= 53; i++) { // For loop for print 51 to 53 no 
-			for (int j = 1; j <= 5; j++) { // For loop for print 1 to 10 no 
-				if (j == 5) { // If condition for break the loop 
+		for (int i = 51; i <= 53; i++) { 
+			for (int j = 1; j <= 5; j++) {
+				if (j == 5) { 
 					break;
 				}	
 				System.out.print(j);
@@ -25,12 +21,12 @@ public class BreakContinue {
 			}	
 			System.out.println(i);
 		}		
-		
+
 		System.out.println("\nUsing continue....");
-		
-		for (int a = 91; a <= 93; a++) { // For loop for print 91 to 93 no 
-			for (int b = 1; b <= 5; b++) { // For loop for print 1 to 10 number 
-				if (b == 3) { // If condition for skip the no
+
+		for (int a = 91; a <= 93; a++) { 
+			for (int b = 1; b <= 5; b++) { 
+				if (b == 3) { 
 					continue;
 				}
 				System.out.print(b);

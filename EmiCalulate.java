@@ -10,10 +10,6 @@ import java.util.Scanner;
 
 public class EmiCalulate {
 
-	/**
-	 * @param args
-	 */
-	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		// Take input from the user 
@@ -27,12 +23,12 @@ public class EmiCalulate {
 		
 		Scanner scanner3 = new Scanner (System.in);
 		System.out.println("Enter no of months:- ");
-		float month = scanner3.nextFloat();
+		float months = scanner3.nextFloat();
 		
 		rate = rate/(12*100); // One month interest rate 
 		
 		// Formula of EMI - [p*r*(1+r)^n] / [(1+r)^n-1] 
-		float emi = (principalAmount * rate * (float)Math.pow(1+rate, month)) / (float)(Math.pow(1+rate, month)-1);
+		float emi = (principalAmount * rate * (float)Math.pow(1 + rate, months)) / (float)(Math.pow(1 + rate, months)-1);
 		System.out.println("EMI is:- "+ emi);
 	}
 

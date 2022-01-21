@@ -8,23 +8,19 @@ package basicjava;
 
 public class Keyword {
 
-	/**
-	 * @param args
-	 */
-	
 	int no;
 	String name;
 	
-	public Keyword(int stdNo, String stdName) { // paameterized constructor
+	public Keyword(int stdNo, String stdName) { // Parameterized constructor
 		this.no = stdNo; 
 		this.name = stdName;
 	}
-	
+
 	public void show() { // Show method
 		System.out.println("Roll no of student:- "+ no);
 		System.out.println("Name no of student:- "+ name);
 	}
-	
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		// Create an object of class 
