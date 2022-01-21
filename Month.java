@@ -1,4 +1,4 @@
-package core_JAVA;
+package coreJAVA;
 
 import java.util.Scanner;
 
@@ -8,60 +8,59 @@ import java.util.Scanner;
  * @author Ravi Dudhat
  * @version 1.01 2022-01-20
  */
+
 public class Month {
 
 	/**
 	 * @param args
 	 */
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int month; // Initialize variable
-		Scanner s = new Scanner (System.in); // Take number as input from user
+		Scanner scanner = new Scanner (System.in); // Take number as input from user 
 		System.out.println("Enter number(1 to 12) :-");
-		month = s.nextInt();
-		
-		
-		
+		int month = scanner.nextInt();
+				
 		switch(month) { // Switch case for month
-			case 1: { // case for no 1
+			case 1:  
 				System.out.println("January");
-			} break;	
-			case 2: { // case for no 2
+			 break;	
+			case 2:  
 				System.out.println("February");
-			} break;	
-			case 3: { // case for no 3
+			 break;	
+			case 3:  
 				System.out.println("March");
-			} break;	
-			case 4: { // case for no 4
+			 break;	
+			case 4:  
 				System.out.println("April");
-			} break;	
-			case 5: { // case for no 5
+			 break;	
+			case 5:  
 				System.out.println("May");
-			} break;	
-			case 6: { // case for no 6
+			 break;	
+			case 6:  
 				System.out.println("June");
-			} break;	
-			case 7: { // case for no 7
+			 break;	
+			case 7:  
 				System.out.println("July");
-			} break;	
-			case 8: { // case for no 8
+			 break;	
+			case 8:  
 				System.out.println("August");
-			} break;	
-			case 9: { // case for no 9
+			 break;	
+			case 9:  
 				System.out.println("September");
-			} break;	
-			case 10: { // case for no 10
+			 break;	
+			case 10:  
 				System.out.println("October");
-			} break;	
-			case 11: { // case for no 11
+			 break;	
+			case 11:  
 				System.out.println("November");
-			} break;	
-			case 12: { // case for no 12
+			 break;	
+			case 12:  
 				System.out.println("December");
-			} break;	
-			default: { // case for invalid no 
+			 break;	
+			default:  
 				System.out.println("Invalid number !!!!!");
-			} break;	
+			 break;	
 		}
 		
 	}
