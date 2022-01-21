@@ -1,4 +1,4 @@
-package coreJAVA;
+package basicjava;
 
 /**
  * Practical 4:- Write a program to demonstrate the use of while looop and do while loop.

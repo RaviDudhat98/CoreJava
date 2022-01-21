@@ -1,4 +1,4 @@
-package coreJAVA;
+package basicjava;
 
 /**
  * Practical 7:- Write a program to demonstrate the example of constructor and Parameterized constructor.

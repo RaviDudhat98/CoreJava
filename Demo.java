@@ -1,4 +1,4 @@
-package coreJAVA;
+package basicjava;
 
 /**
  * Practical 1 :- Write a program to print "Hello world"

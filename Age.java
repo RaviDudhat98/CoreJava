@@ -1,4 +1,4 @@
-package coreJAVA;
+package basicjava;
 
 /**
  * Practical 2 :- Write a program to demonstrate the use of if/else statements. 

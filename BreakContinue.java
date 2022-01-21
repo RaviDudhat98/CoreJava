@@ -1,4 +1,4 @@
-package coreJAVA;
+package basicjava;
 
 /**
  Practicle 6 :- Write a prgram to demonstrate the example of break/continue Statement. 
@@ -23,7 +23,7 @@ public class BreakContinue {
 				System.out.print(j);
 				System.out.print(" ");
 			}	
-			System.out.println(i);			
+			System.out.println(i);
 		}		
 		
 		System.out.println("\nUsing continue....");
@@ -36,8 +36,8 @@ public class BreakContinue {
 				System.out.print(b);
 				System.out.print(" ");
 			}	
-			System.out.println(a);			
-		}		
+			System.out.println(a);
+		}
 	}
 
 }
