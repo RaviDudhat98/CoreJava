@@ -15,7 +15,7 @@ public class Print {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println("Using While loop..");
-		int i = 1; 		
+		int i = 1;
 		
 		while ( i <= 10 ) { // Condition for print 1 to 10 no using while loop 
 			System.out.print(i);  

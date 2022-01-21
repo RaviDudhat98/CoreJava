@@ -14,7 +14,7 @@ public class Age {
 	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub		
-		int Age = 73;  
+		int Age = 73;
 		
 		if (Age < 18) { // Condition for candidate is child 
 			System.out.println("Candidate is child......");
