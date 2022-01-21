@@ -11,7 +11,6 @@ import java.util.Scanner;
 public class EmiCalulate {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		// Take input from the user 
 		Scanner scanner1 = new Scanner (System.in);
 		System.out.println("Enter principal amount(Rs):- ");
@@ -25,10 +24,10 @@ public class EmiCalulate {
 		System.out.println("Enter no of months:- ");
 		float months = scanner3.nextFloat();
 		
-		rate = rate/(12*100); // One month interest rate 
+		rate = rate / (12 * 100); // One month interest rate 
 		
 		// Formula of EMI - [p*r*(1+r)^n] / [(1+r)^n-1] 
-		float emi = (principalAmount * rate * (float)Math.pow(1 + rate, months)) / (float)(Math.pow(1 + rate, months)-1);
+		float emi = (principalAmount * rate * (float)Math.pow(1 + rate, months)) / (float)(Math.pow(1 + rate, months) - 1);
 		System.out.println("EMI is:- "+ emi);
 	}
 

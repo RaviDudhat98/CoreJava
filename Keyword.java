@@ -22,9 +22,8 @@ public class Keyword {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		// Create an object of class 
-		Keyword keyOb = new Keyword(100, "Shivam shah"); 
+		Keyword keyOb = new Keyword(100, "Shivam Shah"); 
 		keyOb.show(); // Show method calling
 	}
 

@@ -11,12 +11,7 @@ import java.util.Scanner;
 
 public class Month {
 
-	/**
-	 * @param args
-	 */
-	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Scanner scanner = new Scanner (System.in); // Take number as input from user 
 		System.out.println("Enter number(1 to 12) :-");
 		int month = scanner.nextInt();
@@ -73,8 +68,7 @@ public class Month {
 			default:  
 				System.out.println("Invalid number !!!!!");
 				break;	
-		}
-		
+		}		
 	}
 
 }

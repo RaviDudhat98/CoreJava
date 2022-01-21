@@ -22,7 +22,6 @@ public class Constructor {
 	}
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		Constructor c1 = new Constructor(); // Create first object of class 
 		System.out.println("Value of a is:- "+ c1.a); // Calling contructor 
 		Constructor c2 = new Constructor(100, 20); // Create second object of class 

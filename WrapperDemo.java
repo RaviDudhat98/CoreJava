@@ -11,7 +11,6 @@ import java.util.Scanner;
 public class WrapperDemo {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		// Wrapper class
 		Double n1 = new Double (25.2);
 		Double n2 = new Double (20.2);

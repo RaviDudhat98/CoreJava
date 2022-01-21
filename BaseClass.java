@@ -22,7 +22,6 @@ public class BaseClass extends Parent {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		// Create an object of base class 
 		BaseClass base = new BaseClass ();
 		base.display(); // Calling base class method 

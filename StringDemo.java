@@ -11,7 +11,6 @@ import java.util.Scanner;
 public class StringDemo {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		String  string1 = "    Hi_Welcome_Home     ";
 		
 		System.out.println("Length of String 1:- "+ string1.length()); // Length of string 

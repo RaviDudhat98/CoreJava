@@ -11,12 +11,11 @@ import java.util.Scanner;
 public class Pattern {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub		
 		Scanner scanner = new Scanner (System.in); // Take input from the user 
 		System.out.println("Enter the no:- ");
-		int n = scanner.nextInt();
+		int number = scanner.nextInt();
 
-		for (int i = 1; i <= n; i++) { // For loop for variable i 
+		for (int i = 1; i <= number; i++) { // For loop for variable i 
 			for (int j = 1; j <= i; j++) { // For loop for variable j 
 				System.out.print("* "); 
 			}

@@ -13,7 +13,6 @@ public class Print {
 	 */
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		System.out.println("Using While loop..");
 		int i = 1;
 		
