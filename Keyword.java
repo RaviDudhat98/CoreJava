@@ -1,11 +1,10 @@
-package basicjava;
+package corejava;
 
 /**
- * Practical 11 :- Write a program to use of this keyword.
+ * Practical 11:- Write a program to use of this keyword.
  * @author Ravi Dudhat
  * @version 1.01 2022-01-21
  */
-
 public class Keyword {
 
 	int no;
@@ -24,7 +23,7 @@ public class Keyword {
 	public static void main(String[] args) {
 		// Create an object of class 
 		Keyword keyOb = new Keyword(100, "Shivam Shah"); 
-		keyOb.show(); // Show method calling
+		keyOb.show(); // Calling show method 
 	}
 
 }

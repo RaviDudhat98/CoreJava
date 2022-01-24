@@ -1,17 +1,12 @@
-package basicjava;
+package corejava;
 
 /**
- * Practical 4:- Write a program to demonstrate the use of while looop and do while loop.
+ * Practical 4:- Write a program to demonstrate the use of while loop and do while loop.
  * @author Perfect
  * @version 1.01 2022-01-20
  */
-
 public class Print {
 
-	/**
-	 * @param args
-	 */
-	
 	public static void main(String[] args) {
 		System.out.println("Using While loop..");
 		int i = 1;

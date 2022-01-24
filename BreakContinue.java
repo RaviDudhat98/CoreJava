@@ -1,7 +1,7 @@
-package basicjava;
+package corejava;
 
 /**
- Practicle 6 :- Write a prgram to demonstrate the example of break/continue Statement. 
+ Practical 6:- Write a program to demonstrate the example of break/continue Statement. 
  * @author Ravi Dudhat
  * @version 1.01 2022-01-20
  */

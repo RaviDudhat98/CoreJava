@@ -1,13 +1,12 @@
-package basicjava;
+package corejava;
 
 import java.util.Scanner;
 
 /**
- * Practical 10 :- Write a program to perform all string methods.
+ * Practical 10:- Write a program to perform all string methods.
  * @author Ravi Dudhat
  * @version 1.01 2022-01-21
  */
-
 public class StringDemo {
 
 	public static void main(String[] args) {

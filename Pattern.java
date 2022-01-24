@@ -1,13 +1,12 @@
-package basicjava;
+package corejava;
 
 import java.util.Scanner;
 
 /**
- * Practical 5:- Write a progeam to demonstrate example of "for" loop and prin pattern. 
+ * Practical 5:- Write a program to demonstrate an example of the "for" loop and print pattern. 
  * @author Ravi Dudhat
  * @version 1.01 2022-01-20
  */
-
 public class Pattern {
 
 	public static void main(String[] args) {

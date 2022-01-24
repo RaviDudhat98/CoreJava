@@ -1,14 +1,12 @@
-package basicjava;
+package corejava;
 
 import java.util.Scanner;
 
 /**
- * Practical 3 :- Write a program to find the current month name from the given number
-	of the switch case.
+ * Practical 3:- Write a program to find the current month name from the given number of the switch case.
  * @author Ravi Dudhat
  * @version 1.01 2022-01-20
  */
-
 public class Month {
 
 	public static void main(String[] args) {

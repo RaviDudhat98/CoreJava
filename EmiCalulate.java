@@ -1,13 +1,12 @@
-package basicjava;
+package corejava;
 
 import java.util.Scanner;
 
 /** 
- * Practical 8 :- Write a program to calculate EMI.
+ * Practical 8:- Write a program to calculate EMI.
  * @author Ravi Dudhat
  * @version 1.01 2022-01-21
  */
-
 public class EmiCalulate {
 
 	public static void main(String[] args) {

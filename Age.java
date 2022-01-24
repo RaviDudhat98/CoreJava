@@ -1,7 +1,7 @@
-package basicjava;
+package corejava;
 
 /**
- * Practical 2 :- Write a program to demonstrate the use of if/else statements. 
+ * Practical 2:- Write a program to demonstrate the use of if/else statements. 
  * @author Ravi Dudhat
  * @version 1.01 2022-01-20
  */
