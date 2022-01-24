@@ -11,10 +11,10 @@ class Calculate {
 		int addition = number1 + number2; 
 		System.out.println("Addition is:- "+ addition);
 	}
-	
+
 }
 
-public class Area extends Calculate{
+public class Area extends Calculate {
 
 	public void subtractionOfNumber(int number1, int number2) { // Method of subtraction
 		int subtraction = number1 - number2;
