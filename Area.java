@@ -11,6 +11,7 @@ class Calculate {
 		int addition = number1 + number2; 
 		System.out.println("Addition is:- "+ addition);
 	}
+	
 }
 
 public class Area extends Calculate{

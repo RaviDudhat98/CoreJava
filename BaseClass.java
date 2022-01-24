@@ -9,6 +9,7 @@ package corejava;
 class Parent { 
 
 	String name = "Anil patel";
+
 }
 
 public class BaseClass extends Parent { 

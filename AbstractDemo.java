@@ -11,7 +11,7 @@ abstract class Shape { // Abstract class
 
 }
 
-public class AbstractDemo extends Shape { // parent class extend child class 
+public class AbstractDemo extends Shape { // Parent class extend child class 
 
 	float width;
 	float height;
@@ -24,6 +24,7 @@ public class AbstractDemo extends Shape { // parent class extend child class
 	public void show() { // Method for show message 
 		System.out.println("Show mehod of AbstractDemo class");
 	}
+	
 	public void areaOfRectangle() { // Method for area of rectangle
 		float area = width * height; // Formula of area of rectangle 
 		System.out.println("Area of rectangle:- "+ area);
