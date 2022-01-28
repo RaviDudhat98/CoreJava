@@ -11,7 +11,7 @@ import java.util.Iterator;
 public class ArraylistDemo {
 
 	public static void main(String[] args) {
-		ArrayList<String> arrayList = new ArrayList<String>(); // Create an object of arraylist
+		ArrayList<String> arrayList = new ArrayList<>(); // Create an object of arraylist
 		arrayList.add("Hello"); // Add element in list
 		arrayList.add("Welcome");
 		arrayList.add("Ravi Dudhat");

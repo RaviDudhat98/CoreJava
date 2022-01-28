@@ -11,10 +11,12 @@ import java.io.IOException;
  */
 public class FileDemo {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
+		FileWriter fileWrite = null;
+
 		try {
 			System.out.println("-----File Handling-----\n");
-			File file = new File("E:\\BE\\8th Sem Intenship\\testFile.txt"); // Create an object of file and passing path as argument 
+			File file = new File("E:\\BE\\8th Sem Intenship\\File.txt");
 			boolean result = file.createNewFile(); // Create a new file 
 
 			if(result) {
@@ -23,15 +25,17 @@ public class FileDemo {
 				System.out.println("File already exists at location:- \n" + file.getCanonicalPath()); // Return the path of file
 			}
 
-			FileWriter fileWrite = new FileWriter(file);// Create an object of filewriter foo write data
+			fileWrite = new FileWriter(file);// Create an object for write data
 			fileWrite.write("Enrollnment:- 190163107010\n");
 			fileWrite.write("Name:- Ravi Dudhat\n");
 			fileWrite.write("Branch:- Computer Engineering\n");
 			fileWrite.write("Collage:- Government Engineering Collage, Modasa\n");
-			fileWrite.close();
+			
 			System.out.println("\nWrote in file successfully....");
 		} catch (IOException exception) {
-			System.out.println("Exception occure:-\n" + exception); //prints exception if there any exception 
+			System.out.println("Exception occure:-\n" + exception);
+		} finally {
+			fileWrite.close();
 		}
 	}
 

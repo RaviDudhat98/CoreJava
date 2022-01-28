@@ -12,7 +12,7 @@ class Student {
 	int number;
 	Scanner scanner = new Scanner(System.in); // Take input from the user 
 
-	public void getData() { // Method for get data from user
+	public void getData() {
 		System.out.println("Multi-level inheritance\n");
 		System.out.println("Enter enrollnment number:- ");
 		number = scanner.nextInt();
@@ -38,7 +38,7 @@ class Marks extends Student {
 		total = marks1 + marks2;
 	}
 
-	public void show() { // Method for display data to user
+	public void show() {
 		System.out.println("Enrollnment number is:- " + number);
 		System.out.println("Marks of subject 1:- " + marks1);
 		System.out.println("Marks of subject 2:- " + marks2);

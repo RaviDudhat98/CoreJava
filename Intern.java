@@ -32,8 +32,8 @@ class FullTimeEmployee extends Employee {
 
 	double increment = 0.25;
 
-	public void employeeSalary() { // Method for get employee the increment salary 
-		employeeSalary = employeeSalary + (employeeSalary * increment); // Salary increment 25% 
+	public void employeeSalary() {
+		employeeSalary = employeeSalary + (employeeSalary * increment);
 		System.out.println("Employee increment salary:- " + employeeSalary);
 	}
 
@@ -43,8 +43,8 @@ public class Intern extends Employee {
 
 	double increment = 0.10;
 
-	public void internSalary() { // Method for get intern the increment salary 
-		internSalary = internSalary + (internSalary * increment); // Salary increment 10% 
+	public void internSalary() {
+		internSalary = internSalary + (internSalary * increment); 
 		System.out.println("Intern increment salary:- " + internSalary);
 	}
 
@@ -68,9 +68,10 @@ public class Intern extends Employee {
 			intern.getInternSalary();
 			intern.internSalary();
 		} else {
-			System.out.println("Wrong choice");
+			System.out.println("Wrong choice....");
 			System.exit(0);
 		}
+
 		scanner.close();
 	}
 

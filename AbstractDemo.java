@@ -5,35 +5,35 @@ package oopsconcepts;
  * @author Ravi Dudhat
  * @version 1.01 2022-01-24
  */
-abstract class Shape { // Abstract class 
+abstract class Shape {
 
-	abstract void show(); // Abstract method 
+	abstract void show();
 
 }
 
-public class AbstractDemo extends Shape { // Parent class extend child class 
+public class AbstractDemo extends Shape {
 
 	float width;
 	float height;
-	
-	public AbstractDemo(float w, float h) { // Parameterized constructor
-		this.width = w;
-		this.height = h;
+
+	public AbstractDemo(float width, float height) { // Parameterized constructor
+		this.width = width;
+		this.height = height;
 	}
 
-	public void show() { // Method for show message 
+	public void show() {
 		System.out.println("Show mehod of AbstractDemo class");
 	}
-	
-	public void areaOfRectangle() { // Method for area of rectangle
-		float area = width * height; // Formula of area of rectangle 
+
+	public void areaOfRectangle() { 
+		float area = width * height;
 		System.out.println("Area of rectangle:- "+ area);
 	}
 
 	public static void main(String[] args) {
-		AbstractDemo abstractObject = new AbstractDemo(60, 12); // Object of "AbstractDemo" class 
-		abstractObject.areaOfRectangle(); // Calling "areaOfRectangle" method
-		abstractObject.show(); // Calling show method
+		AbstractDemo abstractObject = new AbstractDemo(60, 12);
+		abstractObject.areaOfRectangle();
+		abstractObject.show();
 	}
 
 }

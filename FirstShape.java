@@ -37,8 +37,8 @@ class FirstShape extends Addition {
 
 	public static void main(String[] args) {
 		FirstShape firstShape = new FirstShape(); // Create an object of class
-		firstShape.area(20); // Method of area of circle.
-		firstShape.area(10, 20); // Method of area of rectangle
+		firstShape.area(20);
+		firstShape.area(10, 20);
 
 		Addition add = new Addition(); // Create an object of class
 		add.sum(50, 50);

@@ -57,7 +57,7 @@ public class CompareDemo implements Comparator<CompareDemo> {
 	
 	public static void main(String[] args) {
 		// Create an object of the list for comparable
-		List<Person> list = new ArrayList<Person>();
+		List<Person> list = new ArrayList<>();
 		// Add element in list
 		list.add(new Person(1, "Rahul"));
 		list.add(new Person(4, "Abhinav"));

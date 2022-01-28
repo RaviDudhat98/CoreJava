@@ -37,7 +37,7 @@ public class Encapsulate {
 
 	public static void main(String[] args) {
 		Encapsulate encapsulate = new Encapsulate(); // Create an object of the class 
-		
+
 		Scanner scanner = new Scanner(System.in); // Take input from the user
 		System.out.println("Enter number of Student:-");
 		encapsulate.setNumber(scanner.nextInt());
@@ -46,11 +46,8 @@ public class Encapsulate {
 		System.out.println("Enter collage of Student:-");
 		encapsulate.setCollage(scanner.next());
 
-		encapsulate.getNumber();
 		System.out.println("Number of Student:- "+ encapsulate.getNumber());
-		encapsulate.getName();
 		System.out.println("Name of Student:- "+ encapsulate.getName());
-		encapsulate.getCollage(); 
 		System.out.println("Collage of Student:- "+ encapsulate.getCollage());
 		scanner.close();
 	}

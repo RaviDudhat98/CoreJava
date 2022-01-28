@@ -5,27 +5,27 @@ package corejava;
  * @author Ravi Dudhat 
  * @version 1.01 2022-01-20
  */
-
 public class Constructor {
 
-	int a; 
-	int n1; 
-	int n2; 
-	
-	public Constructor() { // Create a constructor 
-		a = 1000; // Assigning a value to variable 
+	int number; 
+	int value1; 
+	int value2; 
+
+	public Constructor() {
+		number = 1000;
 	}
-	
+
 	public Constructor(int x, int y) { 
-		n1 = x;
-		n2 = y;
+		value1 = x;
+		value2 = y;
 	}
-	
+
 	public static void main(String[] args) {
-		Constructor c1 = new Constructor(); // Create first object of class 
-		System.out.println("Value of a is:- "+ c1.a); // Calling contructor 
-		Constructor c2 = new Constructor(100, 20); // Create second object of class 
-		System.out.println("Multiplication is:- "+ c2.n1 * c2.n2); // Calling parameterized constructor 
+		Constructor consrtuctor1 = new Constructor(); // Create an object of class 
+		System.out.println("Value of a is:- "+ consrtuctor1.number);
+
+		Constructor consrtuctor2 = new Constructor(100, 20);
+		System.out.println("Multiplication is:- "+ consrtuctor2.value1 * consrtuctor2.value2);
 	}
 
 }

@@ -12,9 +12,9 @@ public class ExceptionDemo {
 	static int age;
 	public void validateAge() { 
 		if (age < 18) {
-			throw new ArithmeticException("Not eligible for vote!!");  
+			throw new ArithmeticException("Not eligible for vote!!");
 		} else {
-			System.out.println("Eligible for vote!!");  
+			System.out.println("Eligible for vote!!");
 		}
 	}
 
@@ -30,16 +30,15 @@ public class ExceptionDemo {
 			System.out.println ("Result:" + result);
 		} catch (ArithmeticException e) {
 			System.out.println("Catch exception--");
-			System.out.println(e); // Print exception if there any exception 
-		}
-		finally {
+			System.out.println(e);
+		} finally {
 			System.out.println("\n------Finally Block------");
 		}
 
 		System.out.println("\nEnter your age:- ");
 		age = scanner.nextInt();
 
-		ExceptionDemo exception = new ExceptionDemo(); // Create an object of the class
+		ExceptionDemo exception = new ExceptionDemo();
 		exception.validateAge();
 		scanner.close();
 	}

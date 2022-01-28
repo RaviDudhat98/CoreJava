@@ -19,15 +19,15 @@ class Bicycle implements VehicleDemo { // Implemente interface
 	int gear;
 	int newSpeed;
 
-	public void changeGear(int newGear){ // Implement abstract mehod of interface
+	public void changeGear(int newGear) { // Implement abstract mehod of interface
 		gear = newGear;
 	}
 
-	public void currentSpeed(int speed){ // Implemenet abstract mehod of interface
+	public void currentSpeed(int speed) { // Implemenet abstract mehod of interface
 		this.speed = speed;
 	}
 
-	public void speedUp(){
+	public void speedUp() {
 		int increment = 10;
 		newSpeed = speed + increment;
 	}

@@ -37,6 +37,7 @@ public class MapSetDemo {
 		subjectSet.add("Compiler Design");
 		subjectSet.add("Artificial Intelligence");
 		subjectSet.add("Python");
+		subjectSet.add("Python");
 
 		System.out.println("\n-----Hashset-----\n");
 		System.out.println("Subjects are:- ");

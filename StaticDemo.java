@@ -8,16 +8,17 @@ package corejava;
 public class StaticDemo {
 
 	int number; 
-	static String name = "Raj Patel"; // Static variable
+	static String name = "Raj Patel";
 
-	public StaticDemo(int number1) { // Constructor to initialize variable 
+	public StaticDemo(int number1) {
 		number = number1;
 	}
 
-	static void show() { // Static method for change the value of static variable 
+	static void showName() {
 		name = "Raj Shah";
 	}
-	public void display() { // Method for display values 
+
+	public void display() {
 		System.out.println("Number of student:- "+ number);
 		System.out.println("Name of student:- "+ name);
 	}
@@ -27,8 +28,8 @@ public class StaticDemo {
 	}
 
 	public static void main(String[] args) {
-		StaticDemo.show(); // Calling static block  
-		StaticDemo staticDemo = new StaticDemo(10); // Create an object of class 
+		showName();
+		StaticDemo staticDemo = new StaticDemo(10);
 		staticDemo.display();
 	}
 

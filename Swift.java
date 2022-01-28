@@ -3,7 +3,7 @@ package oopsconcepts;
 import java.util.Scanner;
 
 /**
- * Practical:- 15-4 Write a program to demostrate hybrid inheritance.
+ * Practical:- 15-4 Write a program to demonstrate hybrid inheritance.
  * @author Ravi Dudhat
  * @version 1.01 2022-01-25
  */
@@ -13,7 +13,7 @@ class Vehicle {
 	Scanner scanner = new Scanner(System.in); // Take input from the user 
 
 	public void vehicleInfo() {
-		System.out.println("Hybrid inheritance\n");
+		System.out.println("----Hybrid inheritance----\n");
 		System.out.println("Enter color of vehicle:- ");
 		color = scanner.next();
 	}
@@ -26,7 +26,7 @@ class Car extends Vehicle {
 
 	Scanner scanner = new Scanner(System.in); // Take input from the user 
 
-	public void carDetails() { // Method for get car details
+	public void carDetails() {
 		System.out.println("Enter no of tyres for car:- ");
 		tyresCar = scanner.nextInt();
 	}
@@ -80,7 +80,7 @@ public class Swift extends Car {
 			bike.bikeDetails();
 			bike.displayBikeData();
 		} else {
-			System.out.println("Wrong choice");
+			System.out.println("Wrong choice....");
 			System.exit(0);
 		}
 		scanner.close();

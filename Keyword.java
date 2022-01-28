@@ -7,23 +7,23 @@ package corejava;
  */
 public class Keyword {
 
-	int no;
+	int number;
 	String name;
-	
-	public Keyword(int stdNo, String stdName) { // Parameterized constructor
-		this.no = stdNo; 
-		this.name = stdName;
+
+	public Keyword(int number, String name) { // Parameterized constructor
+		this.number = number; 
+		this.name = name;
 	}
 
 	public void show() { // Show method
-		System.out.println("Roll no of student:- "+ no);
+		System.out.println("Roll no of student:- "+ number);
 		System.out.println("Name no of student:- "+ name);
 	}
 
 	public static void main(String[] args) {
 		// Create an object of class 
-		Keyword keyOb = new Keyword(100, "Shivam Shah"); 
-		keyOb.show(); // Calling show method 
+		Keyword keywordObject = new Keyword(100, "Shivam Shah"); 
+		keywordObject.show();
 	}
 
 }

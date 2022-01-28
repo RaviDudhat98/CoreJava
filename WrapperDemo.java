@@ -1,7 +1,5 @@
 package corejava;
 
-import java.util.Scanner;
-
 /**
  * pracical8 9:- Write a Program to compare two variables of the wrapper class. 
  * @author Ravi Dudhat
@@ -10,12 +8,24 @@ import java.util.Scanner;
 public class WrapperDemo {
 
 	public static void main(String[] args) {
-		// Wrapper class
-		Double n1 = new Double (25.2);
-		Double n2 = new Double (20.2);
-		
-		System.out.println("Comparision using compare to method :- "+ n1.compareTo(n2)); // Compareto method
-		System.out.println("Comparision using equals method:- "+ n1.equals(n2)); // Equals method
+
+		Integer integer = 200;
+		Character character = 'A';
+		Float floatNo = 100.20f;
+
+		Double double1 = new Double (25.2);
+		Double double2 = new Double (20.2);
+
+		System.out.println("---Wrapper class---");
+		System.out.println("Comparision using compare to method :- "+ double1.compareTo(double2)); // Compareto method
+		System.out.println("Comparision using equals method:- "+ double1.equals(double2)); // Equals method
+
+		System.out.println("\nGet the value of Integer class:- " + integer.intValue());
+		System.out.println("Get the value of Character class:- " + character.charValue());
+		System.out.println("Get the value of Float class:- " + floatNo.floatValue());
+
+		String string = integer.toString();
+		System.out.println("Length of String:- " + string.length());
 	}
 
 }

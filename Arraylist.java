@@ -11,28 +11,30 @@ public class Arraylist {
 
 	public static void main(String[] args) {
 		// Create an object of the list
-		List<String> list = new ArrayList<String>();
+		List<String> listCharacter = new ArrayList<String>();
 		// Add elements in list
-		list.add("A");
-		list.add("B");
-		list.add("C");
-		list.add("D");
-		list.add("A");
-		list.add("C");
-		list.add("E");
-		list.add("E");
-		list.add("E");
+		listCharacter.add("A");
+		listCharacter.add("B");
+		listCharacter.add("C");
+		listCharacter.add("D");
+		listCharacter.add("A");
+		listCharacter.add("C");
+		listCharacter.add("E");
+		listCharacter.add("E");
+		listCharacter.add("E");
 
-		System.out.println("Elements are:- " + list);
+		System.out.println("Elements are:- " + listCharacter);
 
-		for (int i = 1; i < list.size(); i++) {
-			for (int j = 2; j < list.size(); j++) {
-				if (list.get(i).equals(list.get(j))) {
-					list.remove(list.get(i));
+		for (int i = 1; i < listCharacter.size(); i++) {
+			for (int j = 2; j < listCharacter.size(); j++) {
+				if (listCharacter.get(i).equals(listCharacter.get(j))) {
+					listCharacter.remove(listCharacter.get(i));
 				}
 			}
 		}
-		System.out.println("After removing duplicate elements are:- " + list);
+		System.out.println("After removing duplicate elements are:- " + listCharacter);
+		Collections.sort(listCharacter);
+		System.out.println("Sorting elements:- " + listCharacter);
 	}
 
 }

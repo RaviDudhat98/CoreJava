@@ -14,8 +14,8 @@ public class Pattern {
 		System.out.println("Enter the no:- ");
 		int number = scanner.nextInt();
 
-		for (int i = 1; i <= number; i++) { // For loop for variable i 
-			for (int j = 1; j <= i; j++) { // For loop for variable j 
+		for (int i = 1; i <= number; i++) {
+			for (int j = 1; j <= i; j++) {
 				System.out.print("* "); 
 			}
 			System.out.println();

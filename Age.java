@@ -5,7 +5,6 @@ package corejava;
  * @author Ravi Dudhat
  * @version 1.01 2022-01-20
  */
-
 public class Age {
 
 	public static void main(String[] args) {
