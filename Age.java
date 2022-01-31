@@ -8,11 +8,11 @@ package corejava;
 public class Age {
 
 	public static void main(String[] args) {
-		int Age = 73;
+		int age = 73;
 
-		if (Age < 18) { // Condition for candidate is child 
+		if (age < 18) { // Condition for candidate is child 
 			System.out.println("Candidate is child......");
-		} else if (Age > 18 && Age < 55) { // Condition for candidate is adult 
+		} else if (age > 18 && age < 55) { // Condition for candidate is adult 
 			System.out.println("Candidate is adult......");
 		} else { // Condition for candidate is old age 
 			System.out.println("Candidate is old Age......");

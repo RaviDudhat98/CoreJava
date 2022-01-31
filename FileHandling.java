@@ -13,28 +13,36 @@ import java.util.Scanner;
  */
 public class FileHandling {
 
-	public static void main(String[] args) throws IOException {
+	public static void main(String[] args) throws IOException, NullPointerException {
 		Scanner scanner = null;
 		FileReader fileRead = null;
 		FileWriter out = null;
 
 		File file1 = new File("E:\\BE\\8th Sem Intenship\\FileDemo.txt");
 		File file2 = new File("E:\\BE\\8th Sem Intenship\\newTestFile.txt");
-		File file3 = new File("E:\\BE\\8th Sem Intenship\\File.txt");
+		File file3 = new File("E:\\BE\\8th Sem Intenship\\Test.txt");
 
 		try {
 			scanner = new Scanner(System.in); // Take input from the user 
 			fileRead = new FileReader(file1);
 
-			out = (new FileWriter(file2));
-			System.out.println("For file information check file...\n");
+			if (file2.exists()) {
+				System.out.println("The name of the file is:- " + file2.getName());
+				System.out.println("\nIs the file Readable? :- " + file2.canRead());
+				System.out.println("Is the file Writeable? :- " + file2.canWrite());
+				System.out.println("The size of the file in bytes is:- " + file2.length());
 
-			int character;
-			while ((character = fileRead.read()) != -1) {
-				character = Character.toUpperCase(character);
-				out.write(character);
+				out = (new FileWriter(file2));
+				System.out.println("\nCheck file for file information...\n");
+
+				int character;
+				while ((character = fileRead.read()) != -1) {
+					character = Character.toUpperCase(character);
+					out.write(character);
+				}
+			} else {
+				System.out.println("The file does not exist.");  
 			}
-
 		} catch (IOException exception) {
 			System.out.println("Exception occurred" + exception);
 		} finally {
@@ -48,7 +56,7 @@ public class FileHandling {
 
 		if ("Yes".equals(choice)) {
 			if(file3.delete()) { // Condition for delete file
-				System.out.println(file2.getName() + " is deleted..");
+				System.out.println(file3.getName() + " is deleted..");
 			} else {
 				System.out.println("File deletion failed...");
 			}

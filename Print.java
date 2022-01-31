@@ -11,7 +11,7 @@ public class Print {
 		System.out.println("Using While loop..");
 		int i = 1;
 
-		while ( i <= 10 ) {
+		while (i <= 10) {
 			System.out.print(i);
 			System.out.print(" ");
 			i++;
@@ -24,7 +24,7 @@ public class Print {
 			System.out.print(a);
 			System.out.print(" ");
 			a++;
-		} while ( a <= 110 );
+		} while (a <= 110);
 	}
 
 }

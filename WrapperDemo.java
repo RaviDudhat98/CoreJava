@@ -8,7 +8,6 @@ package corejava;
 public class WrapperDemo {
 
 	public static void main(String[] args) {
-
 		Integer integer = 200;
 		Character character = 'A';
 		Float floatNo = 100.20f;
@@ -17,7 +16,7 @@ public class WrapperDemo {
 		Double double2 = new Double (20.2);
 
 		System.out.println("---Wrapper class---");
-		System.out.println("Comparision using compare to method :- "+ double1.compareTo(double2)); // Compareto method
+		System.out.println("Comparision using compare to method :- "+ double1.compareTo(double2)); // Compare to method
 		System.out.println("Comparision using equals method:- "+ double1.equals(double2)); // Equals method
 
 		System.out.println("\nGet the value of Integer class:- " + integer.intValue());

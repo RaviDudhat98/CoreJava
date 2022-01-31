@@ -17,7 +17,7 @@ public class BaseClass extends Parent {
 
 	public void display() {
 		System.out.println("Name of the student:- "+ collages);
-		System.out.println("Name of the collage:- "+ super.name); // Access name from parent class using Super keyword 
+		System.out.println("Name of the collage:- "+ super.name); // Access variable of parent class using Super keyword 
 	}
 
 	public static void main(String[] args) {

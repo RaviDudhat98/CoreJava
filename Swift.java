@@ -9,7 +9,7 @@ import java.util.Scanner;
  */
 class Vehicle {
 
-	static String color;
+	String color;
 	Scanner scanner = new Scanner(System.in); // Take input from the user 
 
 	public void vehicleInfo() {
@@ -24,8 +24,6 @@ class Car extends Vehicle {
 
 	static int tyresCar;
 
-	Scanner scanner = new Scanner(System.in); // Take input from the user 
-
 	public void carDetails() {
 		System.out.println("Enter no of tyres for car:- ");
 		tyresCar = scanner.nextInt();
@@ -36,8 +34,6 @@ class Car extends Vehicle {
 class Bike extends Vehicle {
 
 	int tyresBike;
-
-	Scanner scanner = new Scanner(System.in); // Take input from the user 
 
 	public void bikeDetails() { // Method for get bike details 
 		System.out.println("Enter number of tyres for bike:- ");

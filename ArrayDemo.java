@@ -43,6 +43,7 @@ public class ArrayDemo {
 			System.out.println("Element " + element + " is not found in array....");
 		}
 
+		scanner.close();
 	}
 
 }

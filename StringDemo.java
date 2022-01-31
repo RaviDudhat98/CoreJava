@@ -44,6 +44,8 @@ public class StringDemo {
 		System.out.println("String comparision using compare to method:- " + string2.compareTo(string3)); // Compare to method
 		System.out.println("String comparision using equals method:- " + string2.equals(string3)); // Equals method
 		System.out.println("String concatanation :- " + string2.concat(string3)); // String concates
+
+		scanner.close();
 	}
 
 }

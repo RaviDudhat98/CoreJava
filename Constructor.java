@@ -21,11 +21,11 @@ public class Constructor {
 	}
 
 	public static void main(String[] args) {
-		Constructor consrtuctor1 = new Constructor(); // Create an object of class 
-		System.out.println("Value of a is:- "+ consrtuctor1.number);
+		Constructor constructor1 = new Constructor(); // Create an object of class 
+		System.out.println("Value of a is:- "+ constructor1.number);
 
-		Constructor consrtuctor2 = new Constructor(100, 20);
-		System.out.println("Multiplication is:- "+ consrtuctor2.value1 * consrtuctor2.value2);
+		Constructor constructor2 = new Constructor(100, 20);
+		System.out.println("Multiplication is:- "+ constructor2.value1 * constructor2.value2);
 	}
 
 }

@@ -26,8 +26,6 @@ class Marks extends Student {
 	int marks2;
 	int total;
 
-	Scanner scanner = new Scanner(System.in); // Take input from the user
-
 	public void getMarks() { // Method for get data from user
 		System.out.println("Enter marks of subject 1:- ");
 		marks1 = scanner.nextInt();

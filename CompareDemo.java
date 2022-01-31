@@ -54,7 +54,7 @@ public class CompareDemo implements Comparator<CompareDemo> {
 	public int showNumber() {
 		return this.number;
 	}
-	
+
 	public static void main(String[] args) {
 		// Create an object of the list for comparable
 		List<Person> list = new ArrayList<>();
@@ -75,7 +75,7 @@ public class CompareDemo implements Comparator<CompareDemo> {
 		}
 
 		// Create an object of the list for comparator
-		List<CompareDemo> listDepartment = new ArrayList<CompareDemo>();
+		List<CompareDemo> listDepartment = new ArrayList<>();
 		// Add element in list
 		listDepartment.add(new CompareDemo("Computer", 8));
 		listDepartment.add(new CompareDemo("Mechanical", 9));

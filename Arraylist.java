@@ -11,7 +11,7 @@ public class Arraylist {
 
 	public static void main(String[] args) {
 		// Create an object of the list
-		List<String> listCharacter = new ArrayList<String>();
+		List<String> listCharacter = new ArrayList<>();
 		// Add elements in list
 		listCharacter.add("A");
 		listCharacter.add("B");

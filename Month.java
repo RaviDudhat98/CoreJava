@@ -15,58 +15,59 @@ public class Month {
 		int month = scanner.nextInt();
 
 		switch(month) { // Switch case for month
-			case 1:  
+			case 1:
 				System.out.println("January");
-				break;	
+				break;
 
-			case 2:  
+			case 2:
 				System.out.println("February");
-				break;	
+				break;
 
-			case 3:  
+			case 3:
 				System.out.println("March");
-				break;	
+				break;
 
-			case 4:  
+			case 4:
 				System.out.println("April");
-				break;	
+				break;
 
-			case 5:  
+			case 5:
 				System.out.println("May");
-				break;	
+				break;
 
-			case 6:  
+			case 6:
 				System.out.println("June");
-				break;	
+				break;
 
-			case 7:  
+			case 7:
 				System.out.println("July");
-				break;	
+				break;
 
-			case 8:  
+			case 8:
 				System.out.println("August");
-				break;	
+				break;
 
-			case 9:  
+			case 9:
 				System.out.println("September");
-				break;	
+				break;
 
-			case 10:  
+			case 10:
 				System.out.println("October");
-				break;	
+				break;
 
-			case 11:  
+			case 11:
 				System.out.println("November");
-				break;	
+				break;
 
-			case 12:  
+			case 12:
 				System.out.println("December");
-				break;	
+				break;
 
-			default:  
+			default:
 				System.out.println("Invalid number !!!!!");
-				break;	
+				break;
 		}
+		scanner.close();
 	}
 
 }

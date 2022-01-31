@@ -27,6 +27,8 @@ public class EmiCalulate {
 		// Formula of EMI - [p*r*(1+r)^n] / [(1+r)^n-1] 
 		float emi = (principalAmount * intrestRate * (float)Math.pow(1 + intrestRate, months)) / (float)(Math.pow(1 + intrestRate, months) - 1);
 		System.out.println("EMI is:- "+ emi);
+
+		scanner.close();
 	}
 
 }

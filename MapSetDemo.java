@@ -12,7 +12,7 @@ public class MapSetDemo {
 
 	public static void main(String[] args) {
 		// Create an object of hashmap
-		HashMap<Integer, String> dataMap = new HashMap<Integer, String>();
+		HashMap<Integer, String> dataMap = new HashMap<>();
 		// Put value in hashmap
 		dataMap.put(1901601001, "Anil Shah");
 		dataMap.put(1901601002, "Vipul Patel");
@@ -29,14 +29,13 @@ public class MapSetDemo {
 		}
 
 		// Create an object of hashset
-		HashSet<String> subjectSet = new HashSet<String>();
+		HashSet<String> subjectSet = new HashSet<>();
 		// Add value in hashset
 		subjectSet.add("Information and Network Security");
 		subjectSet.add("Mobile Application Development");
 		subjectSet.add("Cloud Computing");
 		subjectSet.add("Compiler Design");
 		subjectSet.add("Artificial Intelligence");
-		subjectSet.add("Python");
 		subjectSet.add("Python");
 
 		System.out.println("\n-----Hashset-----\n");
@@ -55,6 +54,6 @@ public class MapSetDemo {
 		}
 
 		System.out.println("\nSize of Set is:- " + subjectSet.size());
-		}
+	}
 
 }
